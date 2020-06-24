@@ -1,0 +1,12 @@
+Admininstrador
+Información=>duración
+	Se podría agregar en la consulta el nombre de la especialidad o algo así para que le quede más 
+	fácil al usuario entender a qué le está poniendo la duración.
+Instructor
+	1. No sé si se pueda crear un tipo de filtro que me permita buscar los horarios por año y trimestre.
+	técnicamente sólo se agregaría un input para los datos y se usaría ajax para mostrar el horario.
+	2. Agregar un ítem al menú para poder actualizar mis datos como instructor, desde el nombre, apellido, etc, 
+	hasta los títulos y estudios etc.
+	3. Arreglar el logout del instructor.
+Coordinador
+	1. se perrateó todo... jajajaja

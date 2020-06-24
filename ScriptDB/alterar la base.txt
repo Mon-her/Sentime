@@ -1,0 +1,22 @@
+ALTER TABLE `horarios_sena`.`competencia` 
+DROP COLUMN `estado`;
+
+
+ALTER TABLE `horarios_sena`.`resultado` 
+DROP COLUMN `estado`;
+
+CREATE TABLE `horarios_sena`.`persona_resultado` (
+  `documento_persona` INT NOT NULL,
+  `id_resultado` INT NOT NULL,
+  PRIMARY KEY (`documento_persona`, `id_resultado`),
+  INDEX `fk_resultado_persona_resultado_idx` (`id_resultado` ASC) ,
+  CONSTRAINT `fk_persona_persona_resultado`
+    FOREIGN KEY (`documento_persona`)
+    REFERENCES `horarios_sena`.`persona` (`documento`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_resultado_persona_resultado`
+    FOREIGN KEY (`id_resultado`)
+    REFERENCES `horarios_sena`.`resultado` (`id_resultado`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);

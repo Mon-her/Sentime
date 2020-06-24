@@ -1,0 +1,19 @@
+select documento, r.id_resultado, r.id_competencia
+from 
+persona
+inner join
+persona_resultado pr on documento_persona=documento
+inner join 
+resultado r on r.id_resultado=pr.id_resultado
+inner join 
+competencia c on c.id_competencia=r.id_competencia
+
+
+select numero_ficha, p.id_programa, denominacion
+from 
+ficha
+inner join 
+programa_ficha pf on numero_ficha=fichanumero_ficha
+inner join 
+programa p on p.id_programa=pf.id_programa
+where salida > now()

@@ -1,0 +1,32 @@
+
+INSERT INTO `horarios_sena`.`competencia` (`id_competencia`, `denominacion`, `duracion`) VALUES ('220501006', 'ESPECIFICAR LOS REQUISITOS NECESARIOS PARA DESARROLLAR EL SISTEMA DE', '120');
+INSERT INTO `horarios_sena`.`competencia` (`id_competencia`, `denominacion`, `duracion`) VALUES ('220501007', 'CONSTRUIR EL SISTEMA QUE CUMPLA CON LOS REQUISITOS DE LA SOLUCIÓN', '600');
+INSERT INTO `horarios_sena`.`competencia` (`id_competencia`, `denominacion`, `duracion`) VALUES ('220501009', 'PARTICIPAR EN EL PROCESO DE NEGOCIACIÓN DE TECNOLOGÍA INFORMÁTICA PARA', '140');
+INSERT INTO `horarios_sena`.`competencia` (`id_competencia`, `denominacion`, `duracion`) VALUES ('220501032', 'ANALIZAR LOS REQUISITOS DEL CLIENTE PARA CONSTRUIR EL SISTEMA DE INFORMACION', '400');
+INSERT INTO `horarios_sena`.`competencia` (`id_competencia`, `denominacion`, `duracion`) VALUES ('220501033', 'DISEÑAR EL SISTEMA DE ACUERDO CON LOS REQUISITOS DEL CLIENTE', '350');
+INSERT INTO `horarios_sena`.`competencia` (`id_competencia`, `denominacion`, `duracion`) VALUES ('220501034', 'IMPLANTAR LA SOLUCIÓN QUE CUMPLA CON LOS REQUISITOS PARA SU OPERACIÓN.', '360');
+INSERT INTO `horarios_sena`.`competencia` (`id_competencia`, `denominacion`, `duracion`) VALUES ('220501035', 'APLICAR BUENAS PRÁCTICAS DE CALIDAD EN EL PROCESO DE DESARROLLO DE SOFTWARE,', '200');
+INSERT INTO `horarios_sena`.`competencia` (`id_competencia`, `denominacion`, `duracion`) VALUES ('240201501', 'COMPRENDER TEXTOS EN INGLÉS EN FORMA ESCRITA Y AUDITIVA', '180');
+INSERT INTO `horarios_sena`.`competencia` (`id_competencia`, `denominacion`, `duracion`) VALUES ('240201502', 'PRODUCIR TEXTOS EN INGLÉS EN FORMA ESCRITA Y ORAL.', '180');
+INSERT INTO `horarios_sena`.`competencia` (`id_competencia`, `denominacion`, `duracion`) VALUES ('240201500', 'PROMOVER LA INTERACCIÓN IDÓNEA CONSIGO MISMO, CON LOS DEMÁS Y CON LA', '0');
+INSERT INTO `horarios_sena`.`competencia` (`id_competencia`, `denominacion`, `duracion`) VALUES ('0', 'APLICAR EN LA RESOLUCIÓN DE PROBLEMAS REALES DEL SECTOR PRODUCTIVO', '0');
+
+
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('1', 'RECONOCER EL ROL DE LOS PARTICIPANTES EN EL PROCESO FORMATIVO, EL PAPEL DE LOS AMBIENTES DE', '240201500');
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('2', 'DESARROLLAR PROCESOS COMUNICATIVOS EFICACES Y ASERTIVOS DENTRO DE CRITERIOS DE', '240201500');
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('3', 'INTERACTUAR EN LOS CONTEXTOS PRODUCTIVOS Y SOCIALES EN FUNCIÓN DE LOS PRINCIPIOS Y VALORES', '240201500');
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('4', 'GENERAR HÁBITOS SALUDABLES EN SU ESTILO DE VIDA PARA GARANTIZAR LA PREVENCIÓN DE RIESGOS', '240201500');
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('5', 'DESARROLLAR PERMANENTEMENTE LAS HABILIDADES PSICOMOTRICES Y DE PENSAMIENTO EN LA', '240201500');
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('6', 'IDENTIFICAR LAS OPORTUNIDADES QUE EL SENA OFRECE EN EL MARCO DE LA FORMACIÓN PROFESIONAL', '240201500');
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('7', 'CONCERTAR ALTERNATIVAS Y ACCIONES DE FORMACIÓN PARA EL DESARROLLO DE LAS COMPETENCIAS DEL', '240201500');
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('8', 'ASUMIR LOS DEBERES Y DERECHOS CON BASE EN LAS LEYES Y LA NORMATIVA INSTITUCIONAL EN EL', '240201500');
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('9', 'APLICAR TÉCNICAS DE CULTURA FÍSICA PARA EL MEJORAMIENTO DE SU EXPRESIÓN CORPORAL,', '240201500');
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('10', 'GESTIONAR LA INFORMACIÓN DE ACUERDO CON LOS PROCEDIMIENTOS ESTABLECIDOS Y CON LAS', '240201500');
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('11', 'ASUMIR RESPONSABLEMENTE LOS CRITERIOS DE PRESERVACIÓN Y CONSERVACIÓN DEL MEDIO AMBIENTE Y', '240201500');
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('12', 'REDIMENSIONAR PERMANENTEMENTE SU PROYECTO DE VIDA DE ACUERDO CON LAS CIRCUNSTANCIAS DEL', '240201500');
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('13', 'GENERAR PROCESOS AUTÓNOMOS Y DE TRABAJO COLABORATIVO PERMANENTES, FORTALECIENDO EL', '240201500');
+INSERT INTO `horarios_sena`.`resultado` (`id_resultado`, `denominacion_resultado`, `id_competencia`) VALUES ('14', 'ASUMIR ACTITUDES CRÍTICAS , ARGUMENTATIVAS Y PROPOSITIVAS EN FUNCIÓN DE LA RESOLUCIÓN DE', '240201500');
+
+
+INSERT INTO `horarios_sena`.`persona_resultado` (`documento_persona`, `id_resultado`) VALUES ('1335', '1');
+INSERT INTO `horarios_sena`.`persona_resultado` (`documento_persona`, `id_resultado`) VALUES ('3', '9');
